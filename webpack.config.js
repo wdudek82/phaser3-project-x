@@ -8,6 +8,9 @@ module.exports = {
     main: './src/index.js',
   },
   devtool: 'cheap-source-map',
+  devServer: {
+    contentBase: '.',
+  },
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
