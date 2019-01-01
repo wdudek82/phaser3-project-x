@@ -13,8 +13,9 @@ export const move = {
   up: 'up',
   turnDown: 'turnDown',
   down: 'down',
+  turnLeft: 'turnLeft',
   left: 'left',
-  turn: 'turn',
+  turnRight: 'turnRight',
   right: 'right',
 };
 

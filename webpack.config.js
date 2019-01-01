@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     main: './src/index.js',
   },
-  devtool: 'inline-source-map',
+  devtool: 'cheap-source-map',
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({

@@ -32,7 +32,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "http-server ./public/index.html",
-    "build": "webpack --mode development"
+    "watch": "webpack --watch",
+    "build": "webpack"
   },
   "author": "Wojciech Dudek",
   "license": "ISC"
