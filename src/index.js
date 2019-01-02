@@ -60,7 +60,7 @@ function create() {
   platforms.create(50, 250, img.ground);
   platforms.create(750, 220, img.ground);
 
-  player = this.physics.add.sprite(400, 300, char.down).setDisplaySize(64, 64);
+  player = this.physics.add.sprite(400, 300, char.down).setScale(2);
 
   player.setBounce(0.2);
   player.setCollideWorldBounds(true);

@@ -7,7 +7,7 @@ module.exports = {
   entry: {
     main: './src/index.js',
   },
-  devtool: 'cheap-source-map',
+  devtool: 'eval-source-map',
   devServer: {
     contentBase: '.',
   },
