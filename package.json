@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "dependencies": {
+    "browser-sync": "^2.26.3",
     "lodash": "^4.17.11",
     "phaser": "^3.15.1"
   },
@@ -12,6 +13,7 @@
     "@babel/preset-env": "^7.2.3",
     "babel-eslint": "^10.0.1",
     "babel-loader": "^8.0.4",
+    "browser-sync-webpack-plugin": "^2.2.2",
     "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^2.1.0",
     "csv-loader": "^3.0.2",
@@ -24,6 +26,7 @@
     "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.11.1",
     "prettier": "1.15.3",
+    "source-map-loader": "^0.2.4",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.3",
     "webpack-cli": "^3.1.2",
